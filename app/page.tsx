@@ -10,7 +10,7 @@ async function getData() {
     return prisma.blogPost.findMany({
         select: {
             title: true,
-            cotent: true,
+             cotent: true,
             imageUrl: true,
             authorImage: true,
             authorName: true,
